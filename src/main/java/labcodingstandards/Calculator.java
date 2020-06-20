@@ -12,6 +12,9 @@ import java.util.Scanner;
  */
 public class Calculator {	
 //CHECKSTYLE: OFF
+	/**
+	 * Begin of the class.
+	 */
 	public static void main(String[] args) {
 //CHECKSTYLE: ON
 		Scanner reader = new Scanner(System.in);
@@ -53,7 +56,10 @@ public class Calculator {
         System.out.printf(result);
 		reader.close();
 	}
-
+	
+	/**
+	 * Operation for calculator.
+	 */
 	private String operation(double first, double second, char operator) {
 		double result = 0;
 		switch(operator)
